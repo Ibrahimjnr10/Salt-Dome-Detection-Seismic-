@@ -1,5 +1,6 @@
 # Salt-Dome-Detection-Seismic-
 Seismic Image Segmentation for Salt Domes Detection in Resource Exploration
+Link to Documention of Project https://medium.com/@abdulsalamibrahima017/seismic-image-segmentation-for-salt-dome-identification-my-approach-e7b30c37b1b4
 
 # U-Net for Grayscale Image Segmentation
 
