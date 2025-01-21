@@ -36,24 +36,24 @@ pip install torch torchvision numpy pandas matplotlib pillow
 The dataset consists of grayscale images and corresponding binary masks. The images are resized to 96x96 pixels for model processing.
 
 ### Model Architecture
-U-Net with residual blocks for feature extraction.
-Downsampling with convolutional layers and upsampling with deconvolution layers.
-Binary cross-entropy loss (BCEWithLogitsLoss) and IoU score for evaluation.
+- U-Net with residual blocks for feature extraction.
+- Downsampling with convolutional layers and upsampling with deconvolution layers.
+- Binary cross-entropy loss (BCEWithLogitsLoss) and IoU score for evaluation.
 
 ### Training
 The model is trained using:
 
-Adam optimizer
-Batch size: 64
-Epochs: 3
+- Adam optimizer
+- Batch size: 64
+- Epochs: 3
 Training involves computing loss and IoU metrics for each batch.
 
 ### Inference
 After training, the model generates binary masks for new images. The process involves:
 
-Loading a trained model.
-Preprocessing input images.
-Running the model to predict masks
+- Loading a trained model.
+- Preprocessing input images.
+- Running the model to predict masks
 
 ### License
 This project is licensed under the MIT License.
